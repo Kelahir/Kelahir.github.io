@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_156dc7997f6c77f7057373fcf24a2afa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_156dc7997f6c77f7057373fcf24a2afa" ></div>
+        
+</body>
+<script>    
+    
+            var map_156dc7997f6c77f7057373fcf24a2afa = L.map(
+                "map_156dc7997f6c77f7057373fcf24a2afa",
+                {
+                    center: [52.0335, 4.3491],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b316a3762799338aabac59c12adc0fdf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_156dc7997f6c77f7057373fcf24a2afa);
+        
+    
+            var marker_cluster_f312a4febf3120f835de9c385b65659b = L.markerClusterGroup(
+                {}
+            );
+            map_156dc7997f6c77f7057373fcf24a2afa.addLayer(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+            var marker_ab60047dc7dd824ebe1ada194e096296 = L.marker(
+                [52.0044, 4.3949],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_e9f9ab8f028ad11649b903e87daa7efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ac662f7adc6aef423025c7791e20d0 = $(`<div id="html_04ac662f7adc6aef423025c7791e20d0" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/delfgauw/14d9d160/melkdragerhof>Link</a></div>`)[0];
+            popup_e9f9ab8f028ad11649b903e87daa7efe.setContent(html_04ac662f7adc6aef423025c7791e20d0);
+        
+
+        marker_ab60047dc7dd824ebe1ada194e096296.bindPopup(popup_e9f9ab8f028ad11649b903e87daa7efe)
+        ;
+
+        
+    
+    
+            marker_ab60047dc7dd824ebe1ada194e096296.bindTooltip(
+                `<div>
+                     
+            Price: 1300<br>
+            Area: 75<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1c1fdfd48027e22c303654fc2c849ea = L.marker(
+                [52.003, 4.3747],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_8259153a30bc95448256b6fec0663427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fc4a454b1294c6351127fa3d3d868bc = $(`<div id="html_6fc4a454b1294c6351127fa3d3d868bc" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/delft/54eba3fd/piet-heinstraat>Link</a></div>`)[0];
+            popup_8259153a30bc95448256b6fec0663427.setContent(html_6fc4a454b1294c6351127fa3d3d868bc);
+        
+
+        marker_e1c1fdfd48027e22c303654fc2c849ea.bindPopup(popup_8259153a30bc95448256b6fec0663427)
+        ;
+
+        
+    
+    
+            marker_e1c1fdfd48027e22c303654fc2c849ea.bindTooltip(
+                `<div>
+                     
+            Price: 2100<br>
+            Area: 110<br>
+            Rooms: 5
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8cbc7c58fc8ce43314dd5959270b9b2 = L.marker(
+                [51.9838, 4.3609],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_42109e37d2d0c03db0f0b61c53544f03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fb141d7e81a04ec073b03cb248c42de = $(`<div id="html_2fb141d7e81a04ec073b03cb248c42de" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/house-for-rent/delft/c0415856/eekhoornhof>Link</a></div>`)[0];
+            popup_42109e37d2d0c03db0f0b61c53544f03.setContent(html_2fb141d7e81a04ec073b03cb248c42de);
+        
+
+        marker_b8cbc7c58fc8ce43314dd5959270b9b2.bindPopup(popup_42109e37d2d0c03db0f0b61c53544f03)
+        ;
+
+        
+    
+    
+            marker_b8cbc7c58fc8ce43314dd5959270b9b2.bindTooltip(
+                `<div>
+                     
+            Price: 1495<br>
+            Area: 70<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43990d368d876633506c1529a558c0cf = L.marker(
+                [52.0643, 4.2379],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_ca03f13496d4212b522b020edb553c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceb5386d35b527adf419cb014ceb8da0 = $(`<div id="html_ceb5386d35b527adf419cb014ceb8da0" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/cf0b51a3/heliotrooplaan>Link</a></div>`)[0];
+            popup_ca03f13496d4212b522b020edb553c09.setContent(html_ceb5386d35b527adf419cb014ceb8da0);
+        
+
+        marker_43990d368d876633506c1529a558c0cf.bindPopup(popup_ca03f13496d4212b522b020edb553c09)
+        ;
+
+        
+    
+    
+            marker_43990d368d876633506c1529a558c0cf.bindTooltip(
+                `<div>
+                     
+            Price: 1250<br>
+            Area: 64<br>
+            Rooms: 2
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d33542067c16b172bb6446e054722263 = L.marker(
+                [52.0577, 4.3411],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_6cd3212a3f114e529fb77147fa1dc4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf0b21a95d5aa48d3d23e6e06607f813 = $(`<div id="html_bf0b21a95d5aa48d3d23e6e06607f813" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/rijswijk/47780451/haagweg>Link</a></div>`)[0];
+            popup_6cd3212a3f114e529fb77147fa1dc4d8.setContent(html_bf0b21a95d5aa48d3d23e6e06607f813);
+        
+
+        marker_d33542067c16b172bb6446e054722263.bindPopup(popup_6cd3212a3f114e529fb77147fa1dc4d8)
+        ;
+
+        
+    
+    
+            marker_d33542067c16b172bb6446e054722263.bindTooltip(
+                `<div>
+                     
+            Price: 1495<br>
+            Area: 60<br>
+            Rooms: 4
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cda5251ea0300e3a300b6379c82e118e = L.marker(
+                [52.0928, 4.2765],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_91d1af7f5f11e1251348e161a59c1e81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a58a2980b507469bbe66c80ace0689bd = $(`<div id="html_a58a2980b507469bbe66c80ace0689bd" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/636d42a6/frankenslag>Link</a></div>`)[0];
+            popup_91d1af7f5f11e1251348e161a59c1e81.setContent(html_a58a2980b507469bbe66c80ace0689bd);
+        
+
+        marker_cda5251ea0300e3a300b6379c82e118e.bindPopup(popup_91d1af7f5f11e1251348e161a59c1e81)
+        ;
+
+        
+    
+    
+            marker_cda5251ea0300e3a300b6379c82e118e.bindTooltip(
+                `<div>
+                     
+            Price: 2600<br>
+            Area: 113<br>
+            Rooms: 4
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dde2155de1b5e2a7ac4a8a15062e662 = L.marker(
+                [52.0747, 4.2817],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_d01efcf41e20ab769b0b015df2872919 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11bd9c1fcc6d41fcc4b86ff06d90292d = $(`<div id="html_11bd9c1fcc6d41fcc4b86ff06d90292d" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/874ac0c0/kepplerstraat>Link</a></div>`)[0];
+            popup_d01efcf41e20ab769b0b015df2872919.setContent(html_11bd9c1fcc6d41fcc4b86ff06d90292d);
+        
+
+        marker_8dde2155de1b5e2a7ac4a8a15062e662.bindPopup(popup_d01efcf41e20ab769b0b015df2872919)
+        ;
+
+        
+    
+    
+            marker_8dde2155de1b5e2a7ac4a8a15062e662.bindTooltip(
+                `<div>
+                     
+            Price: 1695<br>
+            Area: 75<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a72772508d412d2934b3d3284955b3e3 = L.marker(
+                [52.0744, 4.3505],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_7ebd51e2bfcfac7f3ea51d808556c37a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_015012236c75ae045ad155b23541bf04 = $(`<div id="html_015012236c75ae045ad155b23541bf04" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/voorburg/4338aab6/koningin-julianalaan>Link</a></div>`)[0];
+            popup_7ebd51e2bfcfac7f3ea51d808556c37a.setContent(html_015012236c75ae045ad155b23541bf04);
+        
+
+        marker_a72772508d412d2934b3d3284955b3e3.bindPopup(popup_7ebd51e2bfcfac7f3ea51d808556c37a)
+        ;
+
+        
+    
+    
+            marker_a72772508d412d2934b3d3284955b3e3.bindTooltip(
+                `<div>
+                     
+            Price: 1350<br>
+            Area: 105<br>
+            Rooms: 4
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc0a0e6186335215c197f97608f5ea14 = L.marker(
+                [52.0766, 4.263],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_edf652a619934b74730534643dd251bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2f33f25d70c941445cc7851c0303d22 = $(`<div id="html_c2f33f25d70c941445cc7851c0303d22" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/house-for-rent/den-haag/b00a98d6/berkstraat>Link</a></div>`)[0];
+            popup_edf652a619934b74730534643dd251bb.setContent(html_c2f33f25d70c941445cc7851c0303d22);
+        
+
+        marker_cc0a0e6186335215c197f97608f5ea14.bindPopup(popup_edf652a619934b74730534643dd251bb)
+        ;
+
+        
+    
+    
+            marker_cc0a0e6186335215c197f97608f5ea14.bindTooltip(
+                `<div>
+                     
+            Price: 4250<br>
+            Area: 214<br>
+            Rooms: 7
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee8c888cd1dd8c536cace386c7d951d0 = L.marker(
+                [52.0679, 4.2568],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_df5c33b7b6026b07e1dd9e1a6f9b9653 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fb4fa7c5259ddb928e33ee9db890e7d = $(`<div id="html_3fb4fa7c5259ddb928e33ee9db890e7d" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/0803920f/vlierboomstraat>Link</a></div>`)[0];
+            popup_df5c33b7b6026b07e1dd9e1a6f9b9653.setContent(html_3fb4fa7c5259ddb928e33ee9db890e7d);
+        
+
+        marker_ee8c888cd1dd8c536cace386c7d951d0.bindPopup(popup_df5c33b7b6026b07e1dd9e1a6f9b9653)
+        ;
+
+        
+    
+    
+            marker_ee8c888cd1dd8c536cace386c7d951d0.bindTooltip(
+                `<div>
+                     
+            Price: 1495<br>
+            Area: 86<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beb8c9497f70fb24ce7dea5ca420a46c = L.marker(
+                [52.0729, 4.2713],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_c5824db5c44e8cd87a2029c723bbe17a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a9353cf0eede0f07ddbf29ddcd6f46c = $(`<div id="html_7a9353cf0eede0f07ddbf29ddcd6f46c" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/5cbd62f7/rabarberstraat>Link</a></div>`)[0];
+            popup_c5824db5c44e8cd87a2029c723bbe17a.setContent(html_7a9353cf0eede0f07ddbf29ddcd6f46c);
+        
+
+        marker_beb8c9497f70fb24ce7dea5ca420a46c.bindPopup(popup_c5824db5c44e8cd87a2029c723bbe17a)
+        ;
+
+        
+    
+    
+            marker_beb8c9497f70fb24ce7dea5ca420a46c.bindTooltip(
+                `<div>
+                     
+            Price: 1250<br>
+            Area: 75<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_641a2232162bddeb850deec4fff2fbf2 = L.marker(
+                [52.0544, 4.2477],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_7bbdbc9736cdb76e7d18dba06e72dd1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bb1f04c395c7adec0feb38cc5db5649 = $(`<div id="html_1bb1f04c395c7adec0feb38cc5db5649" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/788a979b/schwerinkade>Link</a></div>`)[0];
+            popup_7bbdbc9736cdb76e7d18dba06e72dd1d.setContent(html_1bb1f04c395c7adec0feb38cc5db5649);
+        
+
+        marker_641a2232162bddeb850deec4fff2fbf2.bindPopup(popup_7bbdbc9736cdb76e7d18dba06e72dd1d)
+        ;
+
+        
+    
+    
+            marker_641a2232162bddeb850deec4fff2fbf2.bindTooltip(
+                `<div>
+                     
+            Price: 710<br>
+            Area: 63<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0d308aadc11220aecd173d9054573d8 = L.marker(
+                [52.0937, 4.3205],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_f0d9a950fcf6bb6ea15197c1d1709960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b7a2df1b175d7ccb07e8a248c8bade = $(`<div id="html_22b7a2df1b175d7ccb07e8a248c8bade" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/6d2da9ac/weissenbruchstraat>Link</a></div>`)[0];
+            popup_f0d9a950fcf6bb6ea15197c1d1709960.setContent(html_22b7a2df1b175d7ccb07e8a248c8bade);
+        
+
+        marker_c0d308aadc11220aecd173d9054573d8.bindPopup(popup_f0d9a950fcf6bb6ea15197c1d1709960)
+        ;
+
+        
+    
+    
+            marker_c0d308aadc11220aecd173d9054573d8.bindTooltip(
+                `<div>
+                     
+            Price: 1950<br>
+            Area: 130<br>
+            Rooms: 5
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_873f18a0e3515eb129a7ea298e2d398e = L.marker(
+                [52.0397, 4.3148],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_a313c740bb1890c2d1c8492e9204b87d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e6c6c4972171754738a688429c8d702 = $(`<div id="html_5e6c6c4972171754738a688429c8d702" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/rijswijk/5b766e9b/van-vredenburchweg>Link</a></div>`)[0];
+            popup_a313c740bb1890c2d1c8492e9204b87d.setContent(html_5e6c6c4972171754738a688429c8d702);
+        
+
+        marker_873f18a0e3515eb129a7ea298e2d398e.bindPopup(popup_a313c740bb1890c2d1c8492e9204b87d)
+        ;
+
+        
+    
+    
+            marker_873f18a0e3515eb129a7ea298e2d398e.bindTooltip(
+                `<div>
+                     
+            Price: 850<br>
+            Area: 90<br>
+            Rooms: 2
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d90667c7512192c5319b2d82c2e8c5a4 = L.marker(
+                [52.1093, 4.2801],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_6cda49d68f0a4cfc75a86cd596ceb7c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63b5f1cdda692dba841bb73d081897a7 = $(`<div id="html_63b5f1cdda692dba841bb73d081897a7" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/6e193718/seinpoststraat>Link</a></div>`)[0];
+            popup_6cda49d68f0a4cfc75a86cd596ceb7c7.setContent(html_63b5f1cdda692dba841bb73d081897a7);
+        
+
+        marker_d90667c7512192c5319b2d82c2e8c5a4.bindPopup(popup_6cda49d68f0a4cfc75a86cd596ceb7c7)
+        ;
+
+        
+    
+    
+            marker_d90667c7512192c5319b2d82c2e8c5a4.bindTooltip(
+                `<div>
+                     
+            Price: 1450<br>
+            Area: 60<br>
+            Rooms: 4
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24a9d13faedc68a5dae4fdf18a713a7d = L.marker(
+                [52.0787, 4.3013],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_b5d7de67c2cee49d2ad371a0305e1f1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_337a1969380a2a9ef43953cc2d5a5e47 = $(`<div id="html_337a1969380a2a9ef43953cc2d5a5e47" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/5e5eae19/da-costastraat>Link</a></div>`)[0];
+            popup_b5d7de67c2cee49d2ad371a0305e1f1f.setContent(html_337a1969380a2a9ef43953cc2d5a5e47);
+        
+
+        marker_24a9d13faedc68a5dae4fdf18a713a7d.bindPopup(popup_b5d7de67c2cee49d2ad371a0305e1f1f)
+        ;
+
+        
+    
+    
+            marker_24a9d13faedc68a5dae4fdf18a713a7d.bindTooltip(
+                `<div>
+                     
+            Price: 600<br>
+            Area: 20<br>
+            Rooms: 1
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b71e6b50fe49ea63a21246eef0b490b7 = L.marker(
+                [52.0628, 4.3513],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_b227cfa3e5a33dd8a8bbe9e3cf902a92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86cfb6bfbdbea95a0e10530efa99cfaa = $(`<div id="html_86cfb6bfbdbea95a0e10530efa99cfaa" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/house-for-rent/voorburg/303ab4ec/laan-van-middenburg>Link</a></div>`)[0];
+            popup_b227cfa3e5a33dd8a8bbe9e3cf902a92.setContent(html_86cfb6bfbdbea95a0e10530efa99cfaa);
+        
+
+        marker_b71e6b50fe49ea63a21246eef0b490b7.bindPopup(popup_b227cfa3e5a33dd8a8bbe9e3cf902a92)
+        ;
+
+        
+    
+    
+            marker_b71e6b50fe49ea63a21246eef0b490b7.bindTooltip(
+                `<div>
+                     
+            Price: 3000<br>
+            Area: 195<br>
+            Rooms: 6
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6e47be6d81d10595e3c97164cacf00e = L.marker(
+                [52.0918, 4.342],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_693dbe22a9dacf5cb2a4162147b9de25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c5419fa6d381b0fec43704fa92a777a = $(`<div id="html_4c5419fa6d381b0fec43704fa92a777a" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/f6f6a264/bezuidenhoutseweg>Link</a></div>`)[0];
+            popup_693dbe22a9dacf5cb2a4162147b9de25.setContent(html_4c5419fa6d381b0fec43704fa92a777a);
+        
+
+        marker_e6e47be6d81d10595e3c97164cacf00e.bindPopup(popup_693dbe22a9dacf5cb2a4162147b9de25)
+        ;
+
+        
+    
+    
+            marker_e6e47be6d81d10595e3c97164cacf00e.bindTooltip(
+                `<div>
+                     
+            Price: 2850<br>
+            Area: 120<br>
+            Rooms: 4
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57b1ecf740a7dee45fa6b52296268220 = L.marker(
+                [52.0724, 4.3205],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_5baac3f939c30d72c31349c49a8bf2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f19cba0ad97b08cdf64aa6affe80ff7 = $(`<div id="html_3f19cba0ad97b08cdf64aa6affe80ff7" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/house-for-rent/den-haag/c5a54f0e/weteringplein>Link</a></div>`)[0];
+            popup_5baac3f939c30d72c31349c49a8bf2f2.setContent(html_3f19cba0ad97b08cdf64aa6affe80ff7);
+        
+
+        marker_57b1ecf740a7dee45fa6b52296268220.bindPopup(popup_5baac3f939c30d72c31349c49a8bf2f2)
+        ;
+
+        
+    
+    
+            marker_57b1ecf740a7dee45fa6b52296268220.bindTooltip(
+                `<div>
+                     
+            Price: 1125<br>
+            Area: 51<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a7c734f40c140b425b5064b00d7f6eb = L.marker(
+                [52.0679, 4.2568],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_a880b88c8c73d978040c8cfc3e30323d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24dfcd388a694d87ac15023550265ec3 = $(`<div id="html_24dfcd388a694d87ac15023550265ec3" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/62d6bb8c/thorbeckelaan>Link</a></div>`)[0];
+            popup_a880b88c8c73d978040c8cfc3e30323d.setContent(html_24dfcd388a694d87ac15023550265ec3);
+        
+
+        marker_1a7c734f40c140b425b5064b00d7f6eb.bindPopup(popup_a880b88c8c73d978040c8cfc3e30323d)
+        ;
+
+        
+    
+    
+            marker_1a7c734f40c140b425b5064b00d7f6eb.bindTooltip(
+                `<div>
+                     
+            Price: 1995<br>
+            Area: 130<br>
+            Rooms: 5
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d01038f1de504160715f9e8594fb410 = L.marker(
+                [52.072, 4.369],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_0df3709c9f952ff770e2c064bda9e74c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4d740ec85b85a5240ef8c5ac8b45b41 = $(`<div id="html_a4d740ec85b85a5240ef8c5ac8b45b41" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/voorburg/1be99345/herenstraat>Link</a></div>`)[0];
+            popup_0df3709c9f952ff770e2c064bda9e74c.setContent(html_a4d740ec85b85a5240ef8c5ac8b45b41);
+        
+
+        marker_9d01038f1de504160715f9e8594fb410.bindPopup(popup_0df3709c9f952ff770e2c064bda9e74c)
+        ;
+
+        
+    
+    
+            marker_9d01038f1de504160715f9e8594fb410.bindTooltip(
+                `<div>
+                     
+            Price: 1500<br>
+            Area: 90<br>
+            Rooms: 2
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aa5300f18647cd84073c3a1368937e1 = L.marker(
+                [52.1113, 4.2903],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_7201db7cf583e81c209f942d505d3856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8b86ae84ea1a02714245a586b59df20 = $(`<div id="html_c8b86ae84ea1a02714245a586b59df20" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/82b95966/zwolsestraat>Link</a></div>`)[0];
+            popup_7201db7cf583e81c209f942d505d3856.setContent(html_c8b86ae84ea1a02714245a586b59df20);
+        
+
+        marker_0aa5300f18647cd84073c3a1368937e1.bindPopup(popup_7201db7cf583e81c209f942d505d3856)
+        ;
+
+        
+    
+    
+            marker_0aa5300f18647cd84073c3a1368937e1.bindTooltip(
+                `<div>
+                     
+            Price: 2700<br>
+            Area: 138<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd1cd3bbd87e9e6db3a8588db391bf1c = L.marker(
+                [52.0845, 4.2831],
+                {}
+            ).addTo(marker_cluster_f312a4febf3120f835de9c385b65659b);
+        
+    
+        var popup_fb4c0b6a27b172daca3fe0f70c244476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339b1b6da0ed0e740a6a3dece86b3cc4 = $(`<div id="html_339b1b6da0ed0e740a6a3dece86b3cc4" style="width: 100.0%; height: 100.0%;"><a href=https://www.pararius.com/apartment-for-rent/den-haag/60de2e06/stadhouderslaan>Link</a></div>`)[0];
+            popup_fb4c0b6a27b172daca3fe0f70c244476.setContent(html_339b1b6da0ed0e740a6a3dece86b3cc4);
+        
+
+        marker_fd1cd3bbd87e9e6db3a8588db391bf1c.bindPopup(popup_fb4c0b6a27b172daca3fe0f70c244476)
+        ;
+
+        
+    
+    
+            marker_fd1cd3bbd87e9e6db3a8588db391bf1c.bindTooltip(
+                `<div>
+                     
+            Price: 2475<br>
+            Area: 98<br>
+            Rooms: 3
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
